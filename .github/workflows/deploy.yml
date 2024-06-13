@@ -15,7 +15,7 @@ jobs:
       - name: Check for changes in server folder
         id: check_changes
         run: |
-          echo "CHANGES=true" >> "$GITHUB_OUTPUT"
+          echo "CHANGES=false" >> "$GITHUB_OUTPUT"
         
   deploy:
     runs-on: ubuntu-latest
