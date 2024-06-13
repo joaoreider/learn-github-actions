@@ -27,7 +27,4 @@ jobs:
 
       - name: Deploy to production mock
         run: |
-          echo needs.check_changes.outputs.CHANGES
-          cd web-client
-          npm install
-          npm run build 
+            echo "Deploying to production mock"
