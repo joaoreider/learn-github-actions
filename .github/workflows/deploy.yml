@@ -32,3 +32,4 @@ jobs:
       - name: Deploy to production mock
         run: |
             echo "Deploying to production mock"
+            echo "Deployed successfully"
